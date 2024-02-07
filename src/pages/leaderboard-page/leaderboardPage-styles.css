@@ -1,0 +1,73 @@
+.titleLeaderboard {
+  color: #182c62;
+  font-size: 24px;
+  font-weight: bold;
+}
+.containerLeaderboard {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flag {
+  width: 53px;
+  height: 37px;
+  padding-right: 10px;
+}
+.mp {
+  width: 5%;
+}
+.ga {
+  width: 5%;
+}
+.gf {
+  width: 5%;
+}
+.pt {
+  width: 5%;
+}
+.LeaderboardTable {
+  border-spacing: 0px;
+  width: 90%;
+  margin-top: 20px;
+}
+.tableHeader {
+  text-align: center;
+  font-size: 12px;
+  height: 40px;
+  color: #4b5c68;
+  background-color: #e4edf2;
+}
+
+.show {
+  border-bottom: 1px solid #ccc;
+  color: #4b5c68;
+  font-size: 14px;
+  text-align: center;
+  height: 70px;
+  justify-content: flex-end;
+}
+.teamName {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: start;
+  padding-left: 10px;
+}
+
+.team {
+  width: 80%;
+  text-align: start;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.points {
+  font-size: 16px;
+  font-weight: bold;
+  color: #025feb;
+  padding-left: 15px;
+}

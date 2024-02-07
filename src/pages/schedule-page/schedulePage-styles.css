@@ -1,0 +1,96 @@
+/* tr:nth-child(even) {
+  background: lightgray;
+} */
+.main {
+  min-height: 94.3vh;
+}
+.match {
+  color: #4b5c68;
+  font-size: 14px;
+  text-align: center;
+  height: 70px;
+  justify-content: flex-end;
+}
+.data {
+  width: 5%;
+  padding-left: 5px;
+  text-align: end;
+}
+.stadiumHeader {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 45px;
+}
+.stadium {
+  width: 15%;
+  padding-left: 45px;
+  text-align: start;
+}
+.homeTeamHeader {
+  text-align: end;
+  align-items: center;
+  justify-content: flex-end;
+  width: 40%;
+  padding-left: 30%;
+}
+.teamHome {
+  font-size: 16px;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 15%;
+  padding-left: 0px;
+  text-align: end;
+  width: 100%;
+}
+.awayTeamHeader {
+  text-align: end;
+  width: 40%;
+  padding-right: 25%;
+}
+.teamAway {
+  font-size: 16px;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  width: 40%;
+}
+.scoreboard {
+  width: 5%;
+  font-weight: bold;
+}
+.scheduleTable:nth-child(odd) {
+  background-color: #f6f7f7;
+}
+@media (max-width: 701px) {
+  .scheduleTable {
+    width: 100%;
+  }
+  .homeTeamHeader {
+    text-align: end;
+    align-items: center;
+    padding-left: 20%;
+  }
+  .data {
+    width: 1%;
+    text-align: start;
+  }
+  .awayTeamHeader {
+    text-align: start;
+    padding-right: 15%;
+    width: 20%;
+  }
+
+  .scoreboard {
+    width: 18%;
+    font-weight: bold;
+  }
+  .teamAway {
+    width: 30%;
+  }
+}

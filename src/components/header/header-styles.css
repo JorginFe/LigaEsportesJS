@@ -1,0 +1,42 @@
+.header {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #025feb;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  padding-left: 40px;
+}
+.links {
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  padding: 40px;
+  gap: 40px;
+}
+.leaderboard {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.leaderboard img {
+  width: 25px;
+}
+
+.schedule {
+  gap: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.schedule img {
+  width: 25px;
+}
+.linkText {
+  color: #ffffff;
+  text-decoration: none !important;
+}
