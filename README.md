@@ -1,1 +1,1 @@
-Projeto teste em JavaScript
+Projeto teste em JavaScript.
